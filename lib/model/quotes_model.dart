@@ -1,13 +1,13 @@
 import 'package:equatable/equatable.dart';
 
 class QuotesModel extends Equatable {
-  final String id;
-  final List<String> tags;
-  final String content;
-  final String author;
-  final int length;
-  final String dateAdded;
-  final String dateModified;
+  final String? id;
+  final List<String>? tags;
+  final String? content;
+  final String? author;
+  final int? length;
+  final String? dateAdded;
+  final String? dateModified;
   const QuotesModel({
     required this.id,
     required this.tags,

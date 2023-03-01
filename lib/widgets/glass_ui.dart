@@ -26,10 +26,7 @@ class GlassUI extends StatelessWidget {
           ),
           color: Colors.white.withOpacity(0.4),
           borderRadius: BorderRadius.circular(25),
-          border: Border.all(
-            width: 2,
-            color: Colors.white30,
-          ),
+          border: Border.all(width: 2, color: Colors.white30),
         ),
         child: child,
       ),

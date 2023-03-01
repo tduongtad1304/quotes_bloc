@@ -17,9 +17,6 @@ class QuotesLoadedState extends QuotesState {
   @override
   List<Object> get props => [quotes];
 
-  @override
-  String toString() => 'QuotesLoadedState { quotes: $quotes }';
-
   QuotesLoadedState copyWith({
     QuotesModel? quotes,
   }) {
@@ -36,7 +33,4 @@ class QuotesLoadErrorState extends QuotesState {
 
   @override
   List<Object> get props => [error];
-
-  @override
-  String toString() => 'QuotesLoadErrorState { error: $error }';
 }
